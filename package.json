@@ -1,6 +1,6 @@
 {
   "name": "@pawritharya/editorjs-clutch-widget-embed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "pawritharya",
     "tool",
@@ -51,7 +51,6 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
-    "@codexteam/icons": "^0.0.6",
     "husky": "^8.0.3"
   }
 }
