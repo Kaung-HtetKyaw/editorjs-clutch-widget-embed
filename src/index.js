@@ -113,6 +113,9 @@ export default class ClutchWidgetTool {
    * @returns {ClutchWidgetData}
    */
   save() {
+    // save the rendered html string
+    this._data.iframe = this.ui.iframe.innerHTML;
+
     return this.data;
   }
 
@@ -189,6 +192,7 @@ export default class ClutchWidgetTool {
   set script(script) {
     this._data.script = script;
     this.ui.renderIframe(this.data);
+
     if (this.ui.iframe) {
       this._data.iframe = this.ui.iframe.innerHTML;
     }
